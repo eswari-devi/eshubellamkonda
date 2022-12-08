@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/24ea5a3324.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="netflix.css">
+</head>
+<body>
+    <!--Navbar section-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#"><img src="data:image/jpeg;base64,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" class="stylinglogo"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mr-auto">
+            <a class="nav-link active" href="#" id="go">Home</a>
+            <a class="nav-link" href="#" id="go">TV Shows</a>
+            <a class="nav-link" href="#" id="go">Movies</a>
+            <a class="nav-link" href="#" id="go">My list</a>
+            <a class="nav-link" href="#" id="go">Recently Added</a>
+            <button id="goo1">Sign up</button>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="#" id="go"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a class="nav-link" href="#" id="go">DVD</a>
+            <a class="nav-link" href="#" id="go">KIDS</a>
+            <a class="nav-link" href="#" id="go"><i class="fa-solid fa-user"></i></a>
+            </div>
+        </div>
+      </nav>
+  <!--banner section-->
+  <div class="bgimg1 d-flex flex-column justify-content-end">
+    <div class="text-center mb-4">
+      <h1 class="heading">Unlimted Movies & Tv <br>Shows and more.</h1>
+      <p class="paraline">Watch Anywhere.Cancel Anytime.<br>Ready to Watch? Get start to create your Membership...</p>
+      <a href="https://eswari-devi.github.io/playlist/">
+      <button class="buttonst">Get Started</button>
+      </a>
+    </div>
+  </div>
+  <!--Content section-->
+  <div class="netbgimg pt-4 pb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-5 order-1 order-md-2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXuDkt0730A5vhoUXUsnUdyz5pESurw0tQwA&usqp=CAU" class="netimage1"/>
+      </div>
+      <div class="col-12 col-md-7 order-2 order-md-1">
+        <h1 class="nethead">Enjoy on your TV.</h1>
+        <p class="netpara">Watch on smart TVs,Play Station,<br>Xbox,Chromecast,Apple TV,laptops<br> and more...</p>
+        <button class="netbutton">watch Now</button>
+        
+      </div>
+    </div>
+    </div>
+    
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

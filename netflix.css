@@ -1,0 +1,98 @@
+.navbar{
+    height: 40px;
+}
+.stylinglogo{
+    width: 70px;
+    height:40px;
+    padding:5px;
+}
+#go{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border:0px;
+}
+#go:hover{
+    color: #5a7184;
+}
+#goo1{
+    background-color:#c90202;
+    color: black;
+    padding: 4px 6px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:800px;
+    border:0px;
+    margin-left: 20px;
+}
+#goo1:hover{
+    background-color:lightpink;
+    color: #c90202;
+}
+.bgimg1{
+    background-image: url("https://t3.ftcdn.net/jpg/03/54/82/72/240_F_354827294_YFbkZJiNjOlwdSRpk6I1zPzP1ghpMyZk.jpg");
+   
+    background-size: cover;
+    height:70vh;
+}
+.heading{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    font-weight: bold;
+}
+.paraline{
+    color: #c90202;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.buttonst{
+    color:white;
+    background-color: #c90202;
+    width: 230px;
+    height:45px;
+    border-width: 0px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.netbgimg{
+    background-image:url("https://c8.alamy.com/comp/2F94YCE/netflix-logo-on-the-screen-of-a-white-digital-tablet-with-popcorn-against-on-a-white-bricks-background-2F94YCE.jpg");
+}
+.netimage{
+    width: 100px;
+}
+.nethead{
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding:5px;
+}
+.netpara{
+    color: #5a7184;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+.netbutton{
+    color:#c90202;
+}
+.netbutton{
+    color:white;
+    background-color: #c90202;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.netimage1{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyLSiFw1XFLNSbTL42gXJ3Bq4ucVG57Po9aA&usqp=CAU");
+}
+.playhead{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
